@@ -1,9 +1,10 @@
 .navbar{
-    margin: 0;
-    background-color: black;
+
+
     color: white;
-    padding: 2rem 1rem;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(255, 82, 82, 0.489);
 }
