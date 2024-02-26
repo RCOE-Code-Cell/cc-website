@@ -16,11 +16,11 @@ function Navbar() {
       </div>
       <div id="nav_right">
         <a href=""><img src="./images/join.png" alt="" /></a>
-        <a href="">home</a>
-        <a href="">events</a>
-        <a href="">gallery</a>
-        <a href="">blogs</a>
-        <a href="">members</a>
+        <a href="">Home</a>
+        <a href="">Events</a>
+        <a href="">Gallery</a>
+        <a href="">Blogs</a>
+        <a href="">Members</a>
 
       </div>
     </div>
