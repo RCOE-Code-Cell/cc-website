@@ -1,7 +1,7 @@
 import React from 'react'
-import "/Users/rehbarkhan/Documents/codebox/cc-website/frontend/src/styles/EventCard.css"
-import img from "/Users/rehbarkhan/Documents/codebox/cc-website/frontend/src/assets/Group.png"
-import img2 from "/Users/rehbarkhan/Documents/codebox/cc-website/frontend/src/assets/Vector.png"
+import "/src/styles/EventCard.css"
+import img from "/src/assets/Group.png"
+import img2 from "/src/assets/Vector.png"
 function EventCard() {
  
   return (

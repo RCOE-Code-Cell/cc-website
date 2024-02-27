@@ -1,7 +1,7 @@
 .EventCard{
     color: aliceblue;
     height: 100vh;
-    background-image: url("/Users/rehbarkhan/Documents/codebox/cc-website/frontend/public/Squares.svg");
+    background-image: url("/public/Squares.svg");
 }
 .head1 {
     display: flex;

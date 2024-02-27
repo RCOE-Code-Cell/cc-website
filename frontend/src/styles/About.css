@@ -1,5 +1,5 @@
 .about{
-    background-image : url('/Users/rehbarkhan/Documents/codebox/cc-website/frontend/public/Cubes.svg');
+    background-image : url('/public/Cubes.svg');
     background-repeat : repeat;
     background-size: 50%;
     height: 100vh;
