@@ -4,10 +4,14 @@ import "/src/styles/Hero.css"
 import img3 from "/src/assets/Group1.png"
 import vector2 from "/src/assets/vector2.png"
 
+import { motion, useScroll } from "framer-motion"
+import { Button } from 'flowbite-react';
+
 function Hero() {
     // check figma file for hero
   return (
     <div className='hero'>
+
       <img className="background" src={vector2} alt="" />
       <div id="hero_left">
         <div id="text">
@@ -26,6 +30,8 @@ function Hero() {
         <img src="./robot1.gif" alt="" />
       </div>
     </div>
+
+
   )
 }
 
