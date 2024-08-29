@@ -1,0 +1,41 @@
+version: "3"
+services:
+  mongo:
+    image: mongo
+    ports:
+      - "8002:27017"
+    volumes:
+      - /data/db:/mongodata
+    networks:
+      - cc-server
+
+  backend:
+    depends_on:
+      - mongo
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend:/app
+    networks:
+      - cc-server
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend/src:/app/src
+      - ./frontend/index.html:/app/index.html
+    stdin_open: true
+    tty: true
+    restart: always
+    networks:
+      - cc-server
+
+networks:
+  cc-server:
+    driver: bridge
