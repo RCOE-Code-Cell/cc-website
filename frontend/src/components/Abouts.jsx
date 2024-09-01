@@ -1,23 +1,27 @@
-import React from 'react'
-import "/src/styles/About.css"
+import React from 'react';
 import about_img from '/public/undraw_team_spirit_re_yl1v.svg'
 import about_img1 from '/public/Group1.svg'
+import "../styles/Abouts.css"; // Assuming you have a CSS file for styles
+
 function Abouts() {
-    // check figma file for About of upcoming events
   return (
     <div className='about'>
-        <div className='head'>About Us
-        <img src={about_img1}></img>
+      <div className='head'>
+        About Us
+        <div className="image-container">
+          <img src={about_img1} alt="About Image 1" />
+          <p>
+            "Ignite Your Tech Passion at Codecell RCOE
+            Join Codecell, the vibrant technical community at RCOE, Mumbai. Explore coding, design, and innovation alongside like-minded peers. From workshops to hackathons, we're your gateway to tech excellence.
+            Discover, Learn, Create.
+          </p>
         </div>
-       <div className="about_img">
-        <img src={about_img}></img>
-       </div>
-
-      
-
-
-        </div>
-  )
+      </div>
+      <div className="about_img">
+        <img src={about_img} alt="About Image" />
+      </div>
+    </div>
+  );
 }
 
-export default Abouts
+export default Abouts;

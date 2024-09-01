@@ -1,30 +1,27 @@
 import React, { useState, useEffect } from 'react'
-import "/src/styles/MainPage.css"
-import Hero from '/src/components/Hero.jsx'
-import Navbar from '/src/components/Navbar.jsx'
-import Abouts from '/src/components/Abouts.jsx'
-import EventCarda from '/src/components/EventCarda.jsx';
-import Events from '../components/Events'
-import Outro from '/src/components/Outro.jsx';
-import Map from '/src/components/Map.jsx'
+import "../styles/MainPage.css"
+import Hero from '../components/Hero'
+import Navbar from '../components/Navbar'
+import Abouts from '../components/Abouts'
+import EventCarda from '../components/EventCarda';
+import Events from '../components/Events';
+import Outro from '../components/Outro';
+import Map from '../components/Map'
+import Bgimg from '../components/Background'
 
-import Bgimg from '/src/components/Background.jsx'
-
-// import BackgroundGradient from '/src/components/Test.jsx'
 function MainPage() {
     
 
     return (
-        <div >
+        <div className='main-main-comp'>
             <Bgimg></Bgimg>
-             <Navbar></Navbar>
+            <Navbar></Navbar>
             <Hero></Hero>
             <Abouts></Abouts>
-            <EventCarda></EventCarda>
-            <Map></Map>
-            <Outro></Outro>
+            {/* <EventCarda></EventCarda> */}
+            {/* <Map></Map> */}
+            {/* <Outro></Outro>  */}
 
-            {/* <BackgroundGradient></BackgroundGradient> */}
         </div>
     )
 }

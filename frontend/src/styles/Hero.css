@@ -1,16 +1,15 @@
-.hero{display: flex;
+.hero {
+   display: flex;
    color: aliceblue;
-   height: 70vh;
+   height: 100vh;
    text-align: center;
    justify-content: space-between;
    font-size: 6rem;
-
    font-family: "calibri";
    padding: 2rem 15rem;
-   
 }
 
-.hero .background{
+.hero .background {
    position: absolute;
    right: 1vw;
    top: 0vh;
@@ -18,46 +17,46 @@
 
 }
 
-.hero #hero_left{
-   margin-top: 17vh;
+.hero #hero_left {
+   margin-top: 100px;
    height: fit-content;
 }
 
-.hero #hero_left #text{
+.hero #hero_left #text {
    display: flex;
    gap: 0.5vw;
    font-size: 5vh;
 }
 
-.hero #text #second{
+.hero #text #second {
    font-weight: 50;
    color: rgba(255, 255, 255, 0.763);
 }
 
-.hero #hero_left #head{
+.hero #hero_left #head {
    margin-top: 3vh;
    position: relative;
 }
-.hero #hero_left #head .text{
+
+.hero #hero_left #head .text {
    position: absolute;
    font-size: 3.7rem;
-   top:8vh;
-   left:20vh;
+   top: 8vh;
+   left: 20vh;
    font-weight: 100;
 }
 
-.hero #hero_left #head img{
+.hero #hero_left #head img {
    width: 35rem;
 
 }
-.hero #gif{
+
+.hero #gif {
    z-index: 5;
    margin-left: 28vw;
 }
 
-.hero #gif img{
-   height:35rem;
-   margin-top: 5vh;
-
+.hero #gif img {
+   object-fit: cover;
+    overflow-y: hidden;
 }
-

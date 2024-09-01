@@ -1,19 +1,10 @@
-:root{
-  /* define colors, fonts etc. over here */
-}
-
-.button {
-  /* define button styles over here */
-}
-
-a {
-  /* define anchor tag styles over here */
+* {
+  overflow-x: hidden;
 }
 
 body {
   margin: 0px;
   background-image: url("/public/Confetti Shapes.svg");
   width: 100vw;
-  /* background-repeat: repeat; */
 }
 
